@@ -1,0 +1,64 @@
+# Presentation files (including exports for slide shows)
+*.[pP][pP][tT]
+*.[pP][pP][tT][xX]
+*.[pP][pP][tT][mM]
+*.[pP][pP][sS]
+*.[pP][pP][sS][xX]
+*.[pP][pP][sS][mM]
+*.[pP][oO][tT]
+*.[pP][oO][tT][xX]
+*.[pP][oO][tT][mM]
+
+# Local coursework documents and their exports
+*实验报告*
+
+# Keil build output; keep source, startup files, RTE and .uvprojx
+/newest/USER/Objects/
+/newest/USER/Listings/
+/newest/USER/demo.BAT
+*.o
+*.obj
+*.d
+*.crf
+*.axf
+*.elf
+*.map
+*.lst
+*.lnp
+*.dep
+*.build_log.htm
+*.build_log.html
+
+# Per-user Keil layouts, debug options and probe state
+*.uvguix.*
+*.uvguix_*
+*.uvopt
+*.uvoptx
+*.uvgui
+*.uvgui.*
+*.uvgui_*
+*.opt
+*.plg
+*.tra
+/newest/USER/DebugConfig/
+JLinkSettings.ini
+JLinkLog.txt
+JLinkLog.txt.*
+*.jlink.log
+
+# Editor / Office temporary files and backups
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+~$*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep the desktop application's .exe, .dll, .swf and AIR runtime.
+# Keep .sct files outside build output: they can be linker source files.
